@@ -1,0 +1,35 @@
+body,section{
+    max-width: 750px;
+    margin: 0 auto;
+}
+body.overHidden{
+    overflow-x: hidden ;
+    overflow-y: hidden ;
+}
+body.scrollY{
+    overflow-y: scroll !important;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+    transform-origin:50% 0 0;
+    max-width: 750px;;
+}
+.banner.scaleSmall{
+    transform:scale(1) !important;
+    transition: all ease-out 0.3s !important;
+}
+.container{
+    width: 96%;
+    margin: 10px auto 0;
+    color: #fff;
+}
+.container.noTranslateY{
+    transform:translateY(0px) !important; 
+    transition: all ease-out 0.3s !important;
+}
+.container div{
+    height: 200px;
+    margin: 10px auto;
+    background-color: #77afa1;
+}
